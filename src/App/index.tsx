@@ -6,7 +6,7 @@ import { Hello } from '../components'
 import styled from 'styled-components'
 
 const Rendu = styled.h3`
-  color: blue;
+  color: black;
 `
 class App extends React.Component<any> {
   static defaultProps = {

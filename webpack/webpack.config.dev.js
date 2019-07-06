@@ -65,7 +65,7 @@ module.exports = {
     },
     devServer: {
         inline:true,
-        port: 9003,
+        port: 9000,
         stats: 'errors-only',
       },
 };
