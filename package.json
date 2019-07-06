@@ -1,6 +1,7 @@
 {
   "name": "ScaffoldingTypescript",
   "version": "1.0.0",
+  "main": "",
   "description": "",
   "scripts": {
     "storybook": "start-storybook -p 6006 -c .storybook",
