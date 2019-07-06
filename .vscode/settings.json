@@ -1,6 +1,6 @@
 {
   "editor.formatOnSave": true,
-  "editor.formatOnSaveTimeout": 0,
+  "editor.formatOnSaveTimeout": 20,
 
   "prettier.eslintIntegration": false,
   "prettier.tslintIntegration": false,
@@ -10,10 +10,6 @@
   "javascript.validate.enable": false,
   "tslint.jsEnable": false,
 
-  "[javascript]": {
-    "editor.formatOnSave": true
-  },
-
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.recentChange.enabled": false,
 
@@ -22,11 +18,10 @@
     "**/.svn": true,
     "**/.hg": true,
     "**/CVS": true,
-    "**/.DS_Store": true,
+    "**/.DS_Store": true
     // "**/**.md": true,
     // "**/.prettierrc": true,
     // "**/.gitignore": true,
-    
   },
 
   "search.exclude": {

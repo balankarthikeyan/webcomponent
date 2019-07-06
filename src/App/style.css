@@ -1,37 +1,37 @@
 body {
-    background: #ebebd3;
-    font-family: roboto, Arial, Helvetica, sans-serif;
+  background: #ebebd3;
+  font-family: roboto, Arial, Helvetica, sans-serif;
+}
+.app {
+  position: relative;
+}
+h1,
+p {
+  color: black;
+  text-align: center;
+
+}
+h1 {
+  font-size: 5vw;
+  margin-bottom: 0;
+}
+p {
+  font-size: 3vw;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 7em;
+  text-align: center;
+  animation: solidSpinner 4000ms infinite linear;
+}
+
+@keyframes solidSpinner {
+  0% {
+    transform: rotate(0deg);
   }
-  .app {
-    position: relative;
+
+  100% {
+    transform: rotate(360deg);
   }
-  h1,
-  p {
-    color: #7d6539;
-    text-align: center;
-  }
-  h1 {
-    font-size: 5vw;
-    margin-bottom: 0;
-  }
-  p {
-    font-size: 3vw;
-    margin-top: 0;
-  }
-  
-  h2 {
-    font-size: 7em;
-    text-align: center;
-    animation: solidSpinner 4000ms infinite linear;
-  }
-  
-  @keyframes solidSpinner {
-    0% {
-      transform: rotate(0deg);
-    }
-  
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
+}
