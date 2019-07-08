@@ -6,7 +6,7 @@ import { Hello } from '../components'
 import styled from 'styled-components'
 
 const Rendu = styled.h1`
-  color: black;
+  color: blue;
   text-align: center;
 `
 class App extends React.Component<any> {
@@ -19,7 +19,7 @@ class App extends React.Component<any> {
         <h1>Hello, Welcome!</h1>
         <p>Start editing to see bk magic happen!</p>
         <Rendu>Start editing to see bk magic happen!</Rendu>
-        <Hello compiler="TypeScript" framework="React" />,<h2>{'⏳'}</h2>
+        <Hello compiler="TypeScript" framework="React" /><h2>{'⏳'}</h2>
       </aside>
     )
   }
