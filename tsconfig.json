@@ -1,38 +1,49 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "outDir": "./dist/",
     "module": "esnext",
-    "target": "es6",
-    "lib": ["es6", "dom", "esnext.asynciterable"],
+    "target": "es2018",
+    "lib": ["es2018", "es2017", "es2016", "es2015", "esnext", "dom"],
     "sourceMap": true,
+
+    "resolveJsonModule": true,
     "allowJs": false,
     "declaration": true,
+
     "jsx": "react",
     "moduleResolution": "node",
+    "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
+
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noImplicitAny": true,
+    "importHelpers": true,
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
-    "allowSyntheticDefaultImports": true,
-    "noUnusedLocals": false,
-    "noUnusedParameters": false,
-    "emitDecoratorMetadata": false,
-    "experimentalDecorators": true,
-    "allowUnusedLabels": true,
-    "allowUnreachableCode": true,
+    "noUnusedLocals": true,
     "plugins": [{ "name": "tslint-language-service" }]
   },
   "exclude": [
+    "**/static",
+    "**/_next",
+    "**/dist",
+    "**/bundle",
+    "**/.next",
+    "**/__assets/*",
+    "**/__tests__",
+    "**/stories",
     "node_modules",
     "build",
+    ".storybook",
     "scripts",
     "acceptance-tests",
-    "webpack.config.js",
+    "webpack",
     "jest",
-    "src/setupTests.ts",
-    "config",
-    "typedoc.js"
+    "public"
   ]
 }

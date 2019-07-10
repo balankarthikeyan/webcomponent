@@ -68,7 +68,7 @@ module.exports = baseConfig => {
       },
 
       {
-        loader: require.resolve('ts-loader'),
+        loader: require.resolve('awesome-typescript-loader'),
         options: {
           // disable type checker - we will use it in fork plugin
           transpileOnly: true,
