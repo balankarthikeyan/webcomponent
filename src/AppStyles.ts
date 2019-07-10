@@ -25,7 +25,8 @@ export const AppStyles = createGlobalStyle`
 
   html {
     box-sizing: border-box;
-    background-color: var(--color-orange);
+    
+    /* background-color: var(--color-orange); */
   }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -34,6 +35,7 @@ export const AppStyles = createGlobalStyle`
     margin: 0;
     min-height: 100vh;
     overflow-x: hidden;
+    margin: 5px;
   }
   body {
     padding: 0;
