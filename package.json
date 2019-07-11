@@ -1,7 +1,8 @@
 {
   "name": "webcomponents-bk",
-  "version": "0.0.1-beta-1",
-  "main": "",
+  "version": "0.0.1-beta-2",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "description": "",
   "scripts": {
     "publish": "tsc || true",
