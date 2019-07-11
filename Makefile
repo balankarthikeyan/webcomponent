@@ -14,3 +14,10 @@ dev:
 
 book: 
 	yarn run storybook
+
+publish:
+	npm run publish
+
+jarvis-prod:
+	yarn publish
+
